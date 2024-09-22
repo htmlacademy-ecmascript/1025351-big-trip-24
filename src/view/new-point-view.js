@@ -1,6 +1,6 @@
 import { createElement } from '../render';
 
-function createNewEventTemplate() {
+function createNewPointTemplate() {
   return `<li class="trip-events__item">
               <form class="event event--edit" action="#" method="post">
                 <header class="event__header">
@@ -165,9 +165,9 @@ function createNewEventTemplate() {
             </li>`;
 }
 
-export default class NewEventView {
+export default class NewPointView {
   getTemplate() {
-    return createNewEventTemplate();
+    return createNewPointTemplate();
   }
 
   getElement() {
